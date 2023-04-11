@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    /*border: 1px solid black;*/
+}
+
+.actions img{
+    width: 100%;
+    height: auto;
+}
+
+.actions h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.actions p{
+    margin: 1rem 0;
+    line-height: 1rem;
+}
+
+.actions a{
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
