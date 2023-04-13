@@ -43,21 +43,3 @@ fieldset {
     margin-left: -4.97rem;
     margin-top: 2rem;
 }
-
-.footer-bar {
-    position: fixed;
-    background-color: blue;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-items img {
-    width: 50px;
-}
