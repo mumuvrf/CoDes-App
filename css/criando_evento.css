@@ -1,0 +1,40 @@
+.footer-bar {
+    position: fixed;
+    background-color: blue;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items img {
+    width: 50px;
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botao {
+    border-radius: 1rem;
+}
