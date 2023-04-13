@@ -17,8 +17,8 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
 form input{
     border-radius: 1rem;
@@ -37,6 +37,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
