@@ -9,7 +9,6 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     font-family: 'Hind Vadodara', sans-serif;
 }
 
@@ -91,7 +90,7 @@ header{
 
 .info-box p{
     margin: 0 1.5rem;
-    color: #888888;
+    color: #8c8070;
 }
 
 .button-like{
@@ -124,4 +123,9 @@ header{
 
 .footer-items img {
     width: 50px;
+}
+
+.footer-items li button{
+    border: 0;
+    background-color: transparent;
 }

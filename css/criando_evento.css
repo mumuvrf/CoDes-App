@@ -13,11 +13,6 @@ section {
     margin: 0.5rem;
     padding: 0.5rem;
 }
-/*nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
 .botao {
     border-radius: 1rem;
 }
