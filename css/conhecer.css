@@ -34,9 +34,10 @@ fieldset {
 #match {
     position: relative;
     font-size: 18px;
-    padding: 0.5rem 1rem;
-    background-color: blue;
-    border-radius: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    background-color: #0388a6;
+    border: 0px;
+    border-radius: 2rem;
     text-decoration: none;
     color: white;
     left: 50%;

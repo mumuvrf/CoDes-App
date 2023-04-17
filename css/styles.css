@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f2ece4;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+p{
+    line-height: 1.5rem;
+    text-align: justify;
 }
 
 header{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: blue;
+    background-color: #0388a6;
 }
 
 .header-bar{
@@ -19,6 +34,8 @@ header{
 
 .app-logo{
     color: white;
+    font-size: 24px;
+    font-weight:600;
     margin: 0.5rem;
     padding: 0.5rem;
 }
@@ -30,12 +47,13 @@ header{
 }
 
 .header-menu li{
+    font-size: 16px;
     margin: 0.5rem;
     padding: 0.5rem;
 }
 
 .header-menu li:active{
-    background-color:darkblue;
+    background-color: #0388a6;
 }
 
 .header-menu li a{
@@ -43,18 +61,65 @@ header{
     color: white;
 }
 
+.info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1.5rem 1rem;
+    padding: 0 0 1.5rem;
+    /*border: 1px solid black;*/
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.1rem 0.4rem #bfb3a4;
+}
+
+.info-box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.25rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    /*margin: 1rem 0;*/
+}
+
+.info-box h2{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 1rem 1.5rem;
+    color: #0388a6;
+}
+
+.info-box p{
+    margin: 0 1.5rem;
+    color: #888888;
+}
+
+.button-like{
+    font-size: 18px;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1.5rem;
+    background-color: #0388a6;
+    border-radius: 2rem;
+    text-decoration: none;
+    align-self: center;
+    color: white;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight:500;
+}
+
 .footer-bar {
     position: fixed;
-    background-color: blue;
+    background-color: #0388a6;
     bottom: 0;
     width: 100%;
 }
 
-.footer-items {
+.footer-items{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 1rem;
 }
 
 .footer-items img {
