@@ -7,13 +7,6 @@ p{
     margin: 2rem 0;
 }
 
-/*footer ul{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: blue;
-}*/
 main img{
     width: 100%;
     height: auto;
@@ -30,6 +23,14 @@ main ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+main ul li{
+    margin: 0.5rem;
+    background-color: #0388a6;
+    color: white;
+    padding: 0.6rem 0.8rem;
+    border: 0;
+    border-radius: 1.6rem;
 }
 main p{
     display: flex;

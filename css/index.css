@@ -1,5 +1,4 @@
-/*main{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}*/
+/* Este arquivo foi esvaziado pois percebeu-se que muitas das propriedades
+poderiam ser extendidas a demais documentos de CSS, portanto os estilos foram
+transferidos para o arquivo styles em novas classes. O arquivo, entretanto, virá
+a ser útil futuramente. */
