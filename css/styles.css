@@ -106,6 +106,20 @@ header{
     font-weight:500;
 }
 
+.actual-button{
+    font-size: 18px;
+    padding: 0.4rem 0.8rem;
+    border: 0;
+    margin-top: 1.5rem;
+    background-color: #0388a6;
+    border-radius: 2rem;
+    text-decoration: none;
+    align-self: center;
+    color: white;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight:500;
+}
+
 .footer-bar {
     position: fixed;
     background-color: #0388a6;
