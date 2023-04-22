@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 4rem 0;
     font-family: 'Roboto Slab', serif;
     background-color: #f2ece4;
     font-size: 16px;
+}
+
+main{
+    padding: 0 1rem;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -15,6 +18,26 @@ h1, h2, h3, h4, h5, h6{
 p{
     line-height: 1.5rem;
     text-align: justify;
+}
+
+input[type=checkbox]{
+    visibility: hidden;
+    width: 0.4rem;
+}
+
+.selection-box{
+    padding: 0.4rem 0.8rem;
+    font-size: 14px;
+    color: #8c8070;
+    border: 1px solid #8c8070;
+    border-radius: 1.6rem;
+    margin: 0.4rem 0;
+}
+
+input[type=checkbox]:checked + .selection-box{
+    background-color: #8c8070;
+    color: white;
+    /*font-weight:bold;*/
 }
 
 header{
@@ -64,7 +87,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 1.5rem 1rem;
+    margin: 1.5rem 0;
     padding: 0 0 1.5rem;
     /*border: 1px solid black;*/
     background-color: white;
@@ -111,11 +134,12 @@ header{
     padding: 0.4rem 0.8rem;
     border: 0;
     margin-top: 1.5rem;
-    background-color: #0388a6;
+    background-color: white;
     border-radius: 2rem;
+    border: 1px solid #0388a6;
     text-decoration: none;
     align-self: center;
-    color: white;
+    color: #0388a6;
     font-family: 'Hind Vadodara', sans-serif;
     font-weight:500;
 }
