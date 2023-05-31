@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 header {
-    position: fixed;
+    /*position: fixed;
     top: 0;
     width: 100%;
-    background-color: #0388a6;
+    background-color: #0388a6;*/
 }
 body{
-    padding: 4rem 0;
     font-family: 'Roboto Slab', serif;
     background-color: #f2ece4;
-    font-size: 16px;
+    font-size: 1rem;
 }
 main{
     padding: 0 1rem;
@@ -24,8 +23,8 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 .app-logo{
-    color: white;
-    font-size: 24px;
+    /*color: white;*/
+    font-size: 1.5rem;
     font-weight:600;
     margin: 0.5rem;
     padding: 0.5rem;
