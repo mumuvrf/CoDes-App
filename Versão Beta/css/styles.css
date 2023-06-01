@@ -18,6 +18,7 @@ main{
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Hind Vadodara', sans-serif;
+    text-shadow: 0 0.2rem 0.8rem #000000;
 }
 
 .y-div{
@@ -55,4 +56,8 @@ footer{
 .footer-link-icon{
     width: 4rem;
     height: auto;
+}
+.volta{
+    height: 4rem;
+    width: auto;
 }
