@@ -16,7 +16,7 @@ main{
 
 .app-logo{
     /*color: white;*/
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight:600;
 }
 
@@ -27,7 +27,7 @@ main{
 
 .main-post{
     border: 1px solid black;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 1rem;
     margin: 1rem 0; 
 }

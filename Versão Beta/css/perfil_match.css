@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-match{
+    width: 12rem;
+    height: auto;
+    border-radius: 6rem;
+}
+
+.items-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.items-group li{
+    margin: 0 0.5rem;
+}

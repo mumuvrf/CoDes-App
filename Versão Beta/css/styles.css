@@ -31,3 +31,28 @@ h1, h2, h3, h4, h5, h6{
     justify-content: space-between;
     align-items: top;
 }
+
+footer{
+    position: fixed;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-nav li{
+    margin: 0 0.5rem;
+    border: 1px solid black;
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.footer-link-icon{
+    width: 4rem;
+    height: auto;
+}
