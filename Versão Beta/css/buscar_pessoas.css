@@ -23,6 +23,10 @@ form {
     justify-content: center;
     align-items: center;
 }
+.elemento{
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
 .buscar {
     font-size: 1.5rem;
     font-weight:500;
@@ -39,7 +43,6 @@ form {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-    margin: 0.5rem;
 }
 .form {
     font-size: 2rem;
@@ -55,39 +58,46 @@ form {
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 2rem;
-    text-shadow: 0 0.2rem 0.6rem #000000;
-    box-shadow: 0 0.2rem 0.4rem #000000;
+    margin-top: 1.5rem;
+    background-color: #ffffff;
 }
 li {
-    margin: 2rem;
-    
+    margin: 1rem;
+}
+li.elemento {
+    margin-top: 4rem;
 }
 label {
     font-size: 2rem;
     font-weight: 400;
-    text-shadow: 0 -0rem 0.4rem #000000;
+    justify-content: center;
 }
 input[type=range] {
     -webkit-appearance: none;
     appearance: none;
+    outline: none;
     display: inline-block;
     border-radius: 2rem;
-    background-color: #8e976c;
-    outline: none;
-    box-shadow: 0 0.2rem 0.4rem #000000;
+    background-color: #f2ece4;
+    border: 0.25rem solid #000000;
+    height: 0.4rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.7rem;
+    height: 1.7rem;
     background-color: #000000;
     border-radius: 50%;
-    box-shadow: 0 0.2rem 0.4rem #000000;
+    
 }
 
 .gen, .esc-gen {
-    margin: 1rem;
-    
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .dist, .id {
     margin: 1rem;

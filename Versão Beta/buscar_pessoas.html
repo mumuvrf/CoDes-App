@@ -19,8 +19,12 @@
         <main>
             <form action="">
                 <ul class="form">
-                    <li>
-                        <h2>Gênero</h2>
+                    <li class="elemento">
+                        <ul>
+                            <li>
+                                <h2>Gênero</h2>
+                            </li>
+                        </ul>
                         <ul class="selecao">
                             <li class="masc-fem">
                                 <label class="gen" for="genero_masc">Masculino</label>
@@ -30,13 +34,13 @@
                                 <input class="esc-gen" type="radio" id="genero_fem" name="escolher" value="Feminino"></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="elemento">
                         <h2 class="dist">Distância</h2>
-                        <input class="deslizante" type="range" id="distancia" min="45" max="120">
+                        <input class="deslizante" type="range" id="distancia" min="1" max="100">
                     </li>
-                    <li>
+                    <li class="elemento">
                         <h2 class="id">Idade</h2>
-                        <input class="deslizante" type="range" id="idade" min="45" max="120">
+                        <input class="deslizante" type="range" id="idade" min="50" max="100">
                     </li>
                     <li>
                         <input class="botao-buscar" type='submit' value='Buscar' id="match">
