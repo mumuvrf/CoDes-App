@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/buscar_pessoas.css">
+        <script src="js/buscar_pessoas.js"></script>
         <title>BemTeVi | Buscar Pessoas</title>
     </head>
     <body>
@@ -36,12 +37,14 @@
                     </li>
                     <li class="elemento">
                         <h2 class="dist">Distância</h2>
-                        <input class="deslizante" type="range" id="distancia" min="1" max="100">
+                        <input class="deslizante" type="range" id="distancia" min="1" max="100" value="50">
+                        <p id="resultado_des">50 km</p>
                     </li>
                     <li class="elemento">
                         <h2 class="id">Idade</h2>
-                        <input class="deslizante" type="range" id="idade" min="50" max="100">
-                    </li>
+                        <input class="deslizante" type="range" id="idade" min="50" max="100" value="75">
+                        <p id="resultado_id">75 anos</p>
+                    </li> 
                     <li>
                         <input class="botao-buscar" type='submit' value='Buscar' id="match">
                     </li>

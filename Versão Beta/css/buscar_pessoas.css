@@ -26,6 +26,8 @@ form {
 .elemento{
     background-color: #ffffff;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 .buscar {
     font-size: 1.5rem;
@@ -101,4 +103,10 @@ input[type='range']::-webkit-slider-thumb {
 }
 .dist, .id {
     margin: 1rem;
+}
+#resultado_des, #resultado_id {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
