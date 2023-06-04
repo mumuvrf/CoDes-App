@@ -4,47 +4,72 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/atividades.css">
         <title>BemTeVi | Atividades</title>
     </head>
     <body>
         <header>
-            <img src="img/3114883.png" alt="">
-            <h1>Atividades</h1>
+            <a href="index.html">
+                <img class="volta" src="img/back.png" alt="">
+            </a>
+            <h1 class="atividade">Atividades</h1>
         </header>
         <main>
             <section>
-                <ul>
-                    <li>
-                        <img src="https://placehold.co/400x400" alt="">
+                <ul class="lista-atividades">
+                    <li class="atividades-action">
+                        <a class="principal" href="busca_atividades.html">
+                            <p class="parag">
+                                Pesquisar
+                            </p>
+                            <img class="pesquisa" src="img/search.png" alt="">
+                        </a>
                     </li>
-                    <li>
-                        <img src="https://placehold.co/400x400" alt="">
+                    <li class="atividades-action">
+                        <a class="principal" href="#">
+                            <p class="parag">
+                                Criar Atividade
+                            </p>
+                            <img class="mais" src="img/mais.png" alt="">
+                        </a>
                     </li>
                 </ul>
             </section>
-            <section>
-                <div>
-                    <h2>Próximo Evento</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis 
-                        ultrices ligula, et varius mauris.
-                    </p>
-                </div>
-                <div>
-                    <img src="https://placehold.co/400x400" alt="">
-                </div>
+            <section class="next-evento">
+                <ul class="evento-org">
+                    <li>
+                        <div>
+                            <h2>Próximo Evento</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis 
+                                    ultrices ligula, et varius mauris. Vestibulum mi velit, iaculis eu eros a, 
+                                    venenatis condimentum nunc.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img class="proximo-evento" src="img/old-woman-party.png" alt="">
+                        </div>
+                    </li>
+                </ul>
             </section>
-            <section>
-                <h2>Em Destaque</h2>
-                <ul>
-                    <li>
-                        <img src="https://placehold.co/400x400" alt="">
+            <section class="destaque">
+                <h3>Em Destaque</h3>
+                <ul class="eventos">
+                    <li class="evento">
+                        <img class="eventos-destaque" src="img/senhoras.png" alt="">
                     </li>
-                    <li>
-                        <img src="https://placehold.co/400x400" alt="">
+                    <li class="evento">
+                        <img class="eventos-destaque" src="img/senhoras2.png" alt="">
                     </li>
-                    <li>
-                        <img src="https://placehold.co/400x400" alt="">
+                    <li class="evento">
+                        <img class="eventos-destaque" src="img/senhoras3.png" alt="">
+                    </li>
+                    <li class="evento">
+                        <img class="eventos-destaque" src="img/next.png" alt="">
                     </li>
                 </ul>
             </section>
