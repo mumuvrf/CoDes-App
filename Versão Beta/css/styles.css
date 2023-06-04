@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5, h6{
     /*text-shadow: 0 0.2rem 0.8rem #000000;*/
 }
 
+h2{
+    color: #0388a6;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .y-div{
     display: flex;
     flex-direction: column;
