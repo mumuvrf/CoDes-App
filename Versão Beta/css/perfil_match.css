@@ -5,10 +5,17 @@ main{
     text-align: center;
 }
 
+h2{
+    color: #0388a6;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .img-match{
     width: 12rem;
     height: auto;
     border-radius: 6rem;
+    margin: 1rem;
 }
 
 .items-group{
@@ -18,5 +25,18 @@ main{
 }
 
 .items-group li{
-    margin: 0 0.5rem;
+    margin: 1rem 0.5rem;
+}
+
+.items-group button{
+    line-height: 0;
+    background-color: #ffffff;
+    border: 0px solid #0388a6;
+    border-radius: 3rem;
+    padding: 0.5rem;
+}
+
+.media-icon{
+    width: 2rem;
+    height: auto;
 }
