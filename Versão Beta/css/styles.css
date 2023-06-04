@@ -43,6 +43,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 1.5rem;
 }
 
 .footer-nav li{
@@ -53,7 +54,7 @@ footer{
 }
 
 .footer-link-icon{
-    width: 4rem;
+    width: 3rem;
     height: auto;
 }
 
