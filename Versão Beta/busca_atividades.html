@@ -8,85 +8,127 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/busca_atividades.css">
         <link rel="shortcut icon" href="img/fav.png">
+        <script src="js/busca_atividades.js"></script>
         <title>BemTeVi | Busca Atividades</title>
     </head>
     <body>
         <header>
             <nav>
-                <ul>
+                <ul class="nav">
                     <li>
-                        <input type="search">
+                        <input id="pesquisa" type="search" placeholder="Pesquisar...">
                     </li>
-                    <li>
-                        <button><img src="https://placehold.co/100x100"></button>
+                    <li class="button">
+                        <img id="filtro" class="filtro" src="img/filtro.png">
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
             <ul class="lista-atividades">
-                <li class="atividade">
-                    <ul class="x-div">
-                        <li>
-                            <img src="https://placehold.co/400x400" class="main-post-img">
-                        </li>
-                        <li>
-                            <ul class="y-div">
-                                <li>
-                                    <h3>Evento</h3>
-                                </li>
-                                <li>
-                                    <p>Lorem Ipsum Dolor Sit Amet</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                <a href="atividade_selecionada.html">
+                    <li class="atividade">
+                        <ul class="x-div">
+                            <li>
+                                <img class="imagem-evento" src="img/senhoras.png" class="main-post-img">
+                            </li>
+                            <li>
+                                <ul class="y-div">
+                                    <li>
+                                        <h3>Evento</h3>
+                                    </li>
+                                    <li>
+                                        <p>Lorem Ipsum Dolor Sit Amet</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </a>
 
-                <li class="atividade">
-                    <ul class="x-div">
-                        <li>
-                            <img src="https://placehold.co/400x400" class="main-post-img">
-                        </li>
-                        <li>
-                            <ul class="y-div">
-                                <li>
-                                    <h3>Evento</h3>
-                                </li>
-                                <li>
-                                    <p>Lorem Ipsum Dolor Sit Amet</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="atividade">
-                    <ul class="x-div">
-                        <li>
-                            <img src="https://placehold.co/400x400" class="main-post-img">
-                        </li>
-                        <li>
-                            <ul class="y-div">
-                                <li>
-                                    <h3>Evento</h3>
-                                </li>
-                                <li>
-                                    <p>Lorem Ipsum Dolor Sit Amet</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                <a href="atividade_selecionada.html">
+                    <li class="atividade">
+                        <ul class="x-div">
+                            <li>
+                                <img class="imagem-evento" src="img/senhoras2.png" class="main-post-img">
+                            </li>
+                            <li>
+                                <ul class="y-div">
+                                    <li>
+                                        <h3>Evento</h3>
+                                    </li>
+                                    <li>
+                                        <p>Lorem Ipsum Dolor Sit Amet</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </a>
+                <a href="atividade_selecionada.html">
+                    <li class="atividade">
+                        <ul class="x-div">
+                            <li>
+                                <img class="imagem-evento" src="img/senhoras3.png" class="main-post-img">
+                            </li>
+                            <li>
+                                <ul class="y-div">
+                                    <li>
+                                        <h3>Evento</h3>
+                                    </li>
+                                    <li>
+                                        <p>Lorem Ipsum Dolor Sit Amet</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </a>
             </ul>
+            <form action="perfil_match.html">
+                <ul class="form">
+                    <li class="elemento">
+                        <h2 class="dist">Distância</h2>
+                        <input class="deslizante" type="range" id="distancia" min="1" max="100" value="50">
+                        <p id="resultado_des">50 km</p>
+                    </li>
+                    <li class="elemento">
+                        <ul>
+                            <li>
+                                <h2>Número de pessoas</h2>
+                            </li>
+                        </ul>
+                        <ul class="selecao">
+                            <li class="numero">
+                                <p class="valor" id="cinco">5</p>
+                            <li class="numero">
+                                <p class="valor" id="dez">10</p>
+                            <li class="numero">
+                                <p class="valor" id="quinze">15</p>
+                            <li class="numero">
+                                <p class="valor" id="vinte">20</p> 
+                        </ul>
+                    </li>
+                    <li class="elemento">
+                        <h2 class="categorias">Categorias</h2>
+                    </li> 
+                    <li>
+                        <input class="botao-aplicar" type='submit' value='Aplicar' id="match">
+                    </li>
+                </ul>
+            </form>
         </main>
         <footer>
-            <ul>
+            <ul class="footer">
                 <li>
-                    <img class="volta" src="img/back.png">
+                    <a href="atividades.html">
+                        <img class="volta" src="img/back.png">
+                    </a>
                 </li>
                 <li>
-                    <img class="volta" src="img/home-icon.png">
+                    <a href="index.html">
+                        <img class="volta" src="img/home-icon.png">
+                    </a>
                 </li>
             </ul>
         </footer>

@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #f2ece4;
+    font-size: 1rem;
+    height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    height: 100vh;
+}
+.xis {
+    height: 4rem;
+    width: auto;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+    color: #8c8070;
+}
+.principal, .festinha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+.festa {
+    height: 23rem;
+    width: auto;
+}
+.elementos {
+    margin: 2rem 0;
+}
+.botao-participar {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    background-color: #ffffff;
+}
