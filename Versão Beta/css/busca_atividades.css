@@ -18,6 +18,9 @@ header, .footer, .nav{
     justify-content: center;
     padding: 1rem;
 }
+.footer {
+    justify-content: space-evenly;
+}
 form {
     display: none;
     flex-direction: column;
@@ -26,6 +29,10 @@ form {
 p#cinco, p#dez, p#quinze, p#vinte {
     font-size: 2rem;
     color: #000000;
+}
+.img-foot {
+    height: 4rem;
+    width: auto;
 }
 a {
     margin-top: 5rem;

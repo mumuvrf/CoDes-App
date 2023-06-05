@@ -15,7 +15,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem 0;
 }
 section {
     margin-bottom: 4rem;
@@ -23,6 +23,7 @@ section {
 .atividade {
     font-size: 1.5rem;
     font-weight: 500;
+    margin-left: 1rem;
 }
 .pesquisa {
     height: 6rem;
