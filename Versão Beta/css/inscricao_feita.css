@@ -23,6 +23,10 @@ section {
     justify-content: center;
     align-items: center;
 }
+h2{
+    /*margin-top: 0.5rem;*/
+    color: #8c8070;
+}
 
 .feito {
     height: 10rem;
