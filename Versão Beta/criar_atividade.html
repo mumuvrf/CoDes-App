@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/criar_atividade.css">
+        <link rel="shortcut icon" href="img/fav.png">
+        <script src="js/criar_atividade.js"></script>
+        <title>BemTeVi | Criar Atividade</title>
+    </head>
+    <body>
+        <header>
+            <a href="atividades.html">
+                <img class="volta" src="img/back.png" alt="">
+            </a>
+            <h1 class="atividade">Criar Atividade</h1>
+        </header>
+        <main>
+            <form action="atividade_criada.html">
+                <ul class="form">
+                    <li class="elemento">
+                        <h2>Título da atividade</h2>
+                        <input id="texto" type="text" placeholder="Digite o título da atividade">
+                    </li>
+                    <li class="elemento">
+                        <h2 class="dist">Número de pessoas</h2>
+                        <input class="deslizante" type="range" id="distancia" min="1" max="50" value="25">
+                        <p id="resultado_des">25 pessoas</p>
+                    </li>
+                    <li class="elemento">
+                        <h2>Categorias</h2>
+                        <select name="categorias" id="categorias">
+                            <option value=""disabled selected>Escolha uma categoria</option>
+                            <option value="clube">Clube</option>
+                            <option value="roda-de-conversa">Roda de conversa</option>
+                            <option value="religiao">Religião</option>
+                            <option value="natureza">Natureza</option>
+                            <option value="esportes">Esportes</option>
+                        </select>
+                    </li>
+                    <li class="elemento">
+                        <h2>Endereço</h2>
+                        <input id="texto" type="text" placeholder="Digite o endereço">
+                    </li>
+                    <li class="elemento">
+                        <h2>Informações extras</h2>
+                        <input id="texto" type="text" placeholder="Digite as informações">
+                    </li>
+                    <li>
+                        <input class="botao-criar" type='submit' value='Criar atividade' id="match">
+                    </li>
+                </ul>
+            </form>
+        </main>
+    </body>
+</html>
