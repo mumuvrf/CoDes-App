@@ -40,3 +40,10 @@ h2{
     width: 2rem;
     height: auto;
 }
+.home {
+    height: 3rem;
+    width: auto;
+}
+.footer-nav {
+    justify-content: space-evenly;
+}

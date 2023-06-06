@@ -63,6 +63,10 @@ a {
 }
 li.elemento {
     margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .selecao {
     display: flex;
@@ -83,6 +87,29 @@ li.elemento {
     border-radius: 2rem;
     margin-top: 1.5rem;
     background-color: #ffffff;
+}
+.categorias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.selection-box{
+    padding: 0.4rem 0.8rem;
+    font-size: 1.5rem;
+    color: #8c8070;
+    border: 1px solid #8c8070;
+    border-radius: 1.6rem;
+    margin: 1.5rem 0;
+}
+input[type=checkbox]:checked + .selection-box{
+    background-color: #8c8070;
+    color: white;
+    /*font-weight:bold;*/
+}
+input[type=checkbox]{
+    visibility: hidden;
+    width: 0.4rem;
 }
 input[type=search] {
     -webkit-appearance: none;
