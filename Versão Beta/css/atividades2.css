@@ -1,0 +1,98 @@
+body{
+    background-color: #f2ece4;
+}
+
+main{
+    padding: 5rem 1.5rem 0;
+}
+
+section{
+    margin: 0.5rem 0;
+}
+
+h2{
+    color: #8c8070;
+}
+
+.action-atv{
+    height: 6rem;
+    width: auto;
+}
+
+.action-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 0;
+    width: 50%;
+    border-radius: 1rem;
+}
+
+#left{
+    margin-right: 0.5rem;
+}
+
+#right{
+    margin-left: 0.5rem;
+}
+
+.parag{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.proximo-evento{
+    height: 10rem;
+    width: auto;
+}
+
+.evento-org{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-bottom: 2px solid #8c8070;
+    line-height: 1.25;
+}
+
+.evento-org p{
+    margin: 1rem 1rem 0 0rem;
+}
+
+.destaque h2{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.eventos{
+    display: flex;
+    flex-direction: column;
+}
+
+.eventos-destaque{
+    height: 4rem;
+    width: auto;
+}
+
+.eventos h3{
+    color:#8c8070;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.evento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    line-height: 1.25;
+}
+
+.evento div{
+    margin-left: 1.5rem;
+}
