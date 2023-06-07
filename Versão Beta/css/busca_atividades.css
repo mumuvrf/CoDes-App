@@ -44,6 +44,7 @@ a {
 .imagem-evento {
     height: 7rem;
     width: auto;
+    margin-right: 1.5rem;
 }
 .filtro {
     height: 3rem;
@@ -154,6 +155,10 @@ h2, h3 {
     margin-bottom: 0.7rem;
     color: #8c8070;
 }
+h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 #resultado_des, #resultado_id {
     display: flex;
     justify-content: center;
@@ -163,6 +168,7 @@ h2, h3 {
 .atividade{
     background-color: #ffffff;
     padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
 }
 #voltar{
     background-color: #8c8070;

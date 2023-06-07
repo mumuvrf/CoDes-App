@@ -7,23 +7,26 @@ body{
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 1rem;
+    justify-content: flex-start;
+    padding: 4rem 1.5rem 0;
     height: 100vh;
+    line-height: 1.25;
 }
 .xis {
-    height: 4rem;
+    height: 2rem;
     width: auto;
+    margin-right: 1.5rem;
 }
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-top: 1.5rem;
 }
-h2{
-    margin-top: 0.5rem;
-    margin-bottom: 0.7rem;
+header h2{
+    margin-left: 1.5rem;
+    font-size: 2rem;
     color: #8c8070;
 }
 .principal, .festinha{
@@ -51,4 +54,11 @@ form {
     border-radius: 2rem;
     margin-top: 1.5rem;
     background-color: #ffffff;
+}
+#match{
+    width: 100%;
+    font-size: 1.25rem;
+    background-color: #8c8070;
+    color: white;
+    border: 0px solid #8c8070;
 }
