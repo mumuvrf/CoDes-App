@@ -7,8 +7,8 @@ body{
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 1rem;
+    justify-content: flex-start;
+    padding: 6rem 1.5rem 0;
     height: 100vh;
 }
 header, .footer, .nav{
@@ -16,7 +16,7 @@ header, .footer, .nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .footer {
     justify-content: space-evenly;
@@ -35,7 +35,7 @@ p#cinco, p#dez, p#quinze, p#vinte {
     width: auto;
 }
 a {
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .lista-atividades {
     display: flex;
@@ -46,12 +46,13 @@ a {
     width: auto;
 }
 .filtro {
-    height: 4rem;
+    height: 3rem;
     width: auto;
 }
 .button {
     background-color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
 }
 .form {
     font-size: 2rem;
@@ -117,14 +118,14 @@ input[type=search] {
     appearance: none;
     outline: none;
     display: inline-block;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: #f2ece4;
-    border: 0.25rem solid #000000;
-    height: 2.7rem;
-    width: 15rem;
-    font-size: 1.5rem;
+    border: 0.1rem solid #8c8070;
+    height: 3rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.25rem;
     font-weight: 500;
-    margin-right: 1rem;
 }
 input[type=range] {
     -webkit-appearance: none;
@@ -158,4 +159,16 @@ h2, h3 {
     justify-content: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.atividade{
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+#voltar{
+    background-color: #8c8070;
+    color: #ffffff;
+}
+#home{
+    border: 1px solid #8c8070;
+    color: #8c8070;
 }
