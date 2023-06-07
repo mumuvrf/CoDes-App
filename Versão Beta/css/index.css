@@ -32,7 +32,6 @@ main{
 }
 
 .main-post{
-    /*border: 1px solid black;*/
     border-radius: 1rem;
     padding: 1.5rem;
     margin: 0.5rem 0;
@@ -52,15 +51,16 @@ main{
 }
 
 .main-post p{
-    margin-top: 0.8rem;
+    margin-top: 0.7rem;
     color: #666666;
+    line-height: 1.25rem;
 }
 
 .help{
     padding: 1rem 0;
     margin: 1rem;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     border-radius: 0.5rem;
-    color: white;
+    color: #ffffff;
 }
