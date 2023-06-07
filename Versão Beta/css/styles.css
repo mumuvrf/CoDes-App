@@ -6,6 +6,19 @@ header {
     width: 100%;
 }
 
+.ultima-pagina {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.voltar-texto {
+    font-size: 1.5rem;
+    font-weight:500;
+    margin-left: 1.5rem;
+}
+
 body{
     font-family: 'Roboto Slab', serif;
     /*background-color: #f2ece4;*/
@@ -68,4 +81,11 @@ footer{
     height: 2rem;
     width: auto;
     margin-left: 1.5rem;
+}
+
+.link-footer{
+    padding: 1rem 0;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
 }

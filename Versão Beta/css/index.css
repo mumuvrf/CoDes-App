@@ -56,11 +56,7 @@ main{
     line-height: 1.25rem;
 }
 
-.help{
-    padding: 1rem 0;
-    margin: 1rem;
-    text-align: center;
+#help{
     border: 1px solid #ffffff;
-    border-radius: 0.5rem;
     color: #ffffff;
 }
