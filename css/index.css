@@ -59,4 +59,10 @@ main{
 #help{
     border: 1px solid #ffffff;
     color: #ffffff;
+    margin: 1rem;
+}
+
+#link-ajuda{
+    text-decoration: none;
+    color: #ffffff;
 }
